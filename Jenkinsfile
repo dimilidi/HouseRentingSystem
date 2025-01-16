@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Execute Tests') {
             steps {
-                bat 'npm test'
+                bat 'dotnet test'
             }   
         } 
     }
